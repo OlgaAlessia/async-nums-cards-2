@@ -1,0 +1,37 @@
+body{
+    background-color: green;
+    text-align: center;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: .65;
+}
+
+button{
+    background-color: grey;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: gray;
+    color: gray;
+    
+}
+
+#cards {
+    margin-top: 50px;
+}
+
+#cards img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
